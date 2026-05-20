@@ -3,7 +3,7 @@
 **An opinionated, phase-based operating model for software companies running fully remote. Like Agile, but for how a remote company actually runs.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-v2.0-blue.svg)](./REMOTE.md)
+[![Version](https://img.shields.io/badge/version-v2.1-blue.svg)](./REMOTE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 ---
