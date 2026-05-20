@@ -5,7 +5,7 @@
 >
 > Think of this as the SDLC or Agile equivalent for *how a remote company runs itself*. Not values on a wall. Phases, rituals, templates, and explicit behavioral shifts.
 
-**Status:** v2.0 · **License:** MIT · **Contributions welcome** via PR.
+**Status:** v2.1 · **License:** MIT · **Contributions welcome** via PR.
 
 ---
 
@@ -830,399 +830,75 @@ The most common failure mode of "all-remote" companies is being de-facto hybrid 
 
 ### Async Standup Template
 
-Post daily in your team's standup channel.
+→ [templates/async-standup.md](./templates/async-standup.md)
 
-```markdown
-**[Date] — [Your Name]**
-
-**Yesterday:**
-- [What outcome moved, not what activity happened]
-- [Link to PR, doc, ticket if relevant]
-
-**Today:**
-- [What you're tackling]
-
-**Blocked on:**
-- [Anything you need from someone, with @-mention if specific]
-
-**Heads up:**
-- [Anything teammates should know — leave, focus block, decision they should weigh in on]
-```
-
-Rules: One post per person per day. Five minutes to write. If you have nothing to say, skip the day — don't post filler.
+Daily async update replacing the standup meeting. One post per person, five minutes to write.
 
 ### Weekly Update Template (for ICs)
 
-```markdown
-**Week of [Date] — [Your Name]**
+→ [templates/weekly-update.md](./templates/weekly-update.md)
 
-**Shipped this week:**
-- [Outcome 1 with link]
-- [Outcome 2 with link]
-
-**In flight:**
-- [What you're mid-stream on, expected to complete by date]
-
-**Blocked / Needs attention:**
-- [Anything where you need management leverage]
-
-**Highlights I'd like noticed:**
-- [Optional: 1–2 things you're proud of from this week. Where the work was harder than it looks, where you learned something, where it mattered.]
-
-**Risks I see:**
-- [Optional: things you're noticing that the team should know about]
-
-**Time spent (rough %):**
-- Focus work: X%
-- Collab/pairing: X%
-- Meetings: X%
-- Onboarding/learning: X%
-
-**Linked to OKR:** [Which team OKR this work serves]
-```
-
-Keep it under one page. Five to ten minutes to write. The "Highlights" field is read by managers and used in Friday Notices — it's there to help, not to brag.
+IC weekly written update covering shipped outcomes, in-flight work, blockers, and highlights for the manager to notice. Under one page, five to ten minutes to write.
 
 ### 1:1 Template
 
-```markdown
-# 1:1 — [IC] / [Manager] — [Date]
+→ [templates/one-on-one.md](./templates/one-on-one.md)
 
-**Status note (from weekly update):** [What's been shipped, what's blocked]
-
-**Agenda (added by either party in advance):**
-- [Topic 1]
-- [Topic 2]
-
-**What are you proud of since we last talked?**
-- [Open question for the IC — pulls forward the work they care about most]
-
-**Career & growth:**
-- [Skill development progress]
-- [What does the next level look like?]
-
-**Feedback (both directions):**
-- [Feedback for IC]
-- [Feedback for manager]
-
-**Team health check:**
-- How connected do you feel to the team?
-- How sustainable does the workload feel?
-- Anyone you'd like more or less of in your week?
-
-**Action items:**
-- [ ] [Owner] [Action]
-```
-
-Use the doc as a running history; don't delete past 1:1s. The pattern over time is more useful than any single session.
+Manager/IC 1:1 focused on career, blockers, and feedback — not status. Use as a running doc; the pattern over time is more useful than any single session.
 
 ### 90-Day Role Contract Template
 
-```markdown
-# Role Contract: [IC Name] — [Period: Q1 2026]
+→ [templates/90-day-role-contract.md](./templates/90-day-role-contract.md)
 
-**Manager:** [Name]
-**Date agreed:** YYYY-MM-DD
-**Review date:** YYYY-MM-DD (end of 90 days)
-
-## Outcomes (3–5 max)
-
-For each outcome:
-- **Outcome:** [Specific, measurable, time-bound]
-- **Why it matters:** [Tied to team OKR or company strategic priority]
-- **What "great" looks like:** [Beyond expectations]
-- **What "on track" looks like:** [Meeting expectations]
-- **What "off track" looks like:** [Below expectations]
-
-## Decision Authority
-What can this person decide on their own without escalation?
-- [Decision class 1]
-- [Decision class 2]
-
-## Visibility Plan
-How will this person's work be made visible during this period?
-- Demo Friday slot scheduled for: [date(s)]
-- Major artifact this person will author: [ADR, design doc, etc.]
-- Cross-team showcase opportunity: [skip-level, all-hands, etc.]
-- How peers will see this work: [channels, demos, PR stories]
-
-## Calibration Cadence
-- Weekly written update: required
-- Bi-weekly 1:1s
-- Mid-period check-in: [date]
-- End-of-period review: [date]
-
-## Skill Development Focus
-- [1–2 skills this person is intentionally building this period]
-
-## Signed off
-- [ ] IC
-- [ ] Manager
-```
+Outcome-based role contract including decision authority, a visibility plan, and calibration cadence. Agreed in writing between manager and IC at the start of each 90-day period.
 
 ### Manager Friday Notice Template
 
-Every Friday. Five minutes per direct report. Sent in 1:1 chat or via short Loom — public-to-the-IC, not company-wide.
+→ [templates/manager-friday-notice.md](./templates/manager-friday-notice.md)
 
-```markdown
-Hey [Name] —
-
-I noticed this week: [one specific thing]
-
-Why it mattered: [one sentence on the impact, or what you learned about them from it]
-
-[Optional: one specific thing to celebrate, build on, or do differently next week]
-
-[Manager name]
-```
-
-Specificity is the entire point. Generic "great work this week!" notes are worse than no notice — they feel rote. If you can't think of something specific, that's a signal worth interrogating in your own 1:1 prep.
+Weekly specific written recognition from manager to each direct report. Every Friday, five minutes per person, sent in 1:1 chat. Specificity is the entire point.
 
 ### Demo Friday Slot Template
 
-For someone signing up for a Demo Friday slot:
+→ [templates/demo-friday-slot.md](./templates/demo-friday-slot.md)
 
-```markdown
-**Title:** [What you're demoing — 5-8 words]
-
-**Presenter:** [Your name]
-
-**Format:** Live demo / Recorded Loom / Written walkthrough (pick one)
-
-**Time needed:** 3–5 min
-
-**Audience takeaway in one sentence:** [What should the audience walk away knowing or thinking?]
-
-**Link to the work:** [PR, doc, project page, prototype URL]
-```
-
-Written-walkthrough option is real — it should appear in the same demo channel as live demos, no second-class status.
+Signup format for biweekly Demo Friday sessions. Supports live demo, recorded Loom, or written walkthrough — all formats are equal.
 
 ### Personal README Template (Optional)
 
-```markdown
-# [Your Name] — How I Work
+→ [templates/personal-readme.md](./templates/personal-readme.md)
 
-**Role:** [Title, team]
-**Time zone:** [TZ + working hours]
-**Started at [Company]:** [Date]
-
-## How I prefer to communicate
-- **Async:** [Your preference — Slack channel, comments on docs, etc.]
-- **Sync:** [When you're available for calls, what you prefer for hard problems]
-- **Response times:** [Your real defaults — be honest]
-
-## What I've shipped at [Company]
-- [Project / outcome]
-- [Project / outcome]
-- [Project / outcome]
-
-## What I'm focused on now
-- [Current main project]
-- [Skills I'm building]
-
-## How I think
-- [Optional: how you make decisions, what you care about in code reviews, what your bar is]
-
-## Personal-ish
-- [Optional: family, hobbies, what makes you tick. Skip this section if you'd rather not share.]
-```
-
-Optional. Encouraged. Maintained by the individual, not by the company. The people who maintain one give their colleagues a real map; the people who don't are not penalized.
+Optional "how I work" page for each team member: communication preferences, working hours, recent work, and a bit of personality. Maintained by the individual, not the company.
 
 ### Quarterly Highlight Reel Template
 
-Each IC writes this every quarter. Public in the handbook. One page max.
+→ [templates/quarterly-highlight-reel.md](./templates/quarterly-highlight-reel.md)
 
-```markdown
-# [Your Name] — Q[N] [Year] Highlights
-
-## What I shipped this quarter
-- [Outcome with link, brief context]
-- [Outcome with link, brief context]
-- [Outcome with link, brief context]
-
-## What I'm most proud of
-- [The one thing — and why it mattered]
-
-## What I learned
-- [Technical, process, or self-knowledge]
-
-## What I want to build next quarter
-- [Skills, scope, kind of work]
-```
-
-This becomes a performance review input, a career portfolio, and a visibility artifact. It also functions as a self-noticing ritual — quarterly forced reflection on what you actually did.
+IC's quarterly public summary of shipped work, learning, and what's next. Functions as a performance review input, career portfolio, and visibility artifact.
 
 ### ADR Template (Architecture Decision Record)
 
-```markdown
-# ADR-NNN: [Short title of the decision]
+→ [templates/adr.md](./templates/adr.md)
 
-**Status:** Proposed | Accepted | Deprecated | Superseded by ADR-XXX
-**Date:** YYYY-MM-DD
-**Author:** [Name]
-**Reviewers:** [@names]
-**Decision deadline:** YYYY-MM-DD
-
-## Context
-What is the issue we're addressing? What constraints exist? What is the current state?
-
-## Decision
-What are we deciding? Be specific.
-
-## Reasoning
-Why this decision and not the alternatives? Reference data, principles, prior decisions.
-
-## Alternatives Considered
-- **Option A:** [pros, cons, why rejected]
-- **Option B:** [pros, cons, why rejected]
-
-## Consequences
-- What becomes easier?
-- What becomes harder?
-- What new risks does this introduce?
-- What do we need to monitor?
-
-## References
-Links to related ADRs, docs, discussions.
-```
+Records non-trivial technical decisions with context, reasoning, alternatives considered, and consequences. Kills "wait, why did we do it this way?" as a recurring meeting category.
 
 ### 30/60/90 Onboarding Plan Template
 
-```markdown
-# Onboarding Plan: [New Hire Name] — [Role] — [Start Date]
+→ [templates/onboarding-30-60-90.md](./templates/onboarding-30-60-90.md)
 
-**Manager:** [Name]  **Buddy:** [Name]  **Mentor (if different):** [Name]
-
-## First Week
-**Goals:** Get oriented, set up environment, meet the team.
-- [ ] Read these handbook pages: [links]
-- [ ] Complete environment setup (link to checklist)
-- [ ] Meet 5 people across teams (calendar will be pre-populated)
-- [ ] Attend 1:1 with manager (Day 2)
-- [ ] Make a first commit (any size) by end of week
-- [ ] Post a welcome note in #intros
-
-## 30 Days
-**Goals:** First independent contribution, role contract drafted.
-- [ ] Merge 3+ PRs (small ones count)
-- [ ] Pair with [name] on [project] for 1–2 days
-- [ ] Draft and sign first 90-day role contract with manager
-- [ ] Attend first team off-site if scheduled
-- [ ] Identify 3 handbook gaps and propose fixes
-- [ ] Sign up for a Demo Friday slot within 60 days
-
-## 60 Days
-**Goals:** Operating semi-autonomously, first demo.
-- [ ] Own a non-trivial project end-to-end
-- [ ] Complete on-call shadow rotation (if applicable)
-- [ ] First written feedback exchange with manager (both directions)
-- [ ] Submit first ADR or significant doc to the handbook
-- [ ] Give first Demo Friday slot — low stakes, builds the muscle
-
-## 90 Days
-**Goals:** Full member of the team, contract review.
-- [ ] Lead a design review or significant doc review
-- [ ] Take a real on-call shift
-- [ ] Complete first formal role contract review
-- [ ] Write first Quarterly Highlight Reel
-- [ ] Onboarding retro: what worked, what we should change for the next hire
-
-## Connection Touchpoints
-- Daily: async standup
-- Weekly: 1:1 with manager, 1:1 with buddy
-- Bi-weekly: random pairing rotation, Demo Friday attendance
-- Monthly: skip-level with manager's manager
-
-## Metrics for Ramp
-- Time to first merged PR: [target]
-- Time to first independent project: [target]
-- Time to first demo given: [target]
-- Time to first on-call shift: [target]
-- Connection score at 90 days: [target]
-```
+Structured onboarding plan for new hires with milestones at 30, 60, and 90 days, connection touchpoints, and measurable ramp metrics.
 
 ### Async Decision Doc Template
 
-```markdown
-# Decision: [Name] — [Date]
+→ [templates/async-decision-doc.md](./templates/async-decision-doc.md)
 
-**Owner:** [Name]  **Decision deadline:** YYYY-MM-DD  **Status:** Open for comments | Decided | Implemented
-
-## What we need to decide
-One sentence.
-
-## Background
-What's the situation? What constraints? Links to relevant docs.
-
-## Options
-**Option 1: [Name]**
-- Description
-- Pros
-- Cons
-- Effort estimate
-
-**Option 2: [Name]**
-- Description
-- Pros
-- Cons
-- Effort estimate
-
-## Recommendation
-Author's recommended option and why.
-
-## Comments
-[Reviewers comment inline or in a section here, by name, dated.]
-
-## Decision
-[After deadline: what was decided and why. If different from recommendation, explain why.]
-
-## Follow-up
-- [ ] [Action] — [Owner] — [Due]
-```
+Structured async proposal for decisions that don't need a meeting. Author writes options and a recommendation; reviewers comment with a deadline; author declares the decision.
 
 ### Incident Post-Mortem Template
 
-```markdown
-# Incident PM: [Title] — [Date]
+→ [templates/incident-postmortem.md](./templates/incident-postmortem.md)
 
-**Severity:** SEV-N
-**Duration:** [start] to [end]  ([X] hours)
-**Detected by:** [system / human / customer]
-**Mitigated by:** [Name(s)]
-**Author:** [Name]
-
-## Summary
-2–3 sentences. What happened, what was impacted, how it was resolved.
-
-## Timeline
-- HH:MM — Event
-- HH:MM — Event
-[All times in UTC]
-
-## Impact
-- Customers affected: [number / scope]
-- Revenue impact: [if known]
-- Internal impact: [team time spent]
-
-## Root cause(s)
-Be specific. "Bad code" is not a root cause. "Race condition in X function under load > Y rps" is.
-
-## What went well
-- [Specific observations]
-
-## What didn't go well
-- [Specific observations — no blame, just facts]
-
-## Action items
-| Action | Owner | Due | Status |
-|--------|-------|-----|--------|
-| [Item] | [Name] | YYYY-MM-DD | Open |
-
-## Blameless reflection
-This is not about who. It's about what conditions made the failure possible. Capture them.
-```
+Blameless post-mortem with timeline, impact, root cause, what went well/didn't, and action items. Focused on conditions, not individuals.
 
 ---
 
@@ -1349,4 +1025,4 @@ People are not the problem. Bad defaults are. Replace the defaults, and the rest
 
 ---
 
-*Last updated: 2026 · v2.0 · MIT License*
+*Last updated: 2026 · v2.1 · MIT License*
